@@ -1,0 +1,8 @@
+Notes
+1. Repo/Folder name must be same as gem name
+2. .rb file must present in lib dir. Name should be same as gem name
+3. gemspec file should be present in root directory. Name should be same as gem name.
+4. Gemspec should contain mandatory properties - name, version, authors, files, summary
+5. command to build gem - gem build parity_property.gemspec
+6. command to push game to rubygems -  gem push parity_property-0.0.1.gem (Update version when new changes made)
+7. list gem locally - gem list, gem list parity_property
